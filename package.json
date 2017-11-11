@@ -1,7 +1,7 @@
 {
   "name": "learning",
   "version": "0.1.0",
-  "homepage": "https://nangelos.github.io/react_purple_dogs/",
+  "homepage": "https://nangelos.github.io/react_purple_dogs",
   "private": true,
   "dependencies": {
     "gh-pages": "^1.0.0",
