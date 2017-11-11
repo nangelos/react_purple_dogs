@@ -60,7 +60,7 @@ class Box extends Component {
 		dogs: null,
 		disabled: false
 	}
-	
+
 	fetchData = (breed) =>{
 		this.setState({disabled: true})
 		if(breed === 'tibetan'){
@@ -95,8 +95,8 @@ class Box extends Component {
 				</ButtonContainer>
 				<Gallery>
 				{
-					dogs && 
-					dogs.map((dog, i) => 
+					dogs &&
+					dogs.map((dog, i) =>
 						<Dog key={i} src={dog} />
 						)
 				}
